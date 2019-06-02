@@ -7,18 +7,21 @@ Some time ago when i study in university i was programer creating many instance 
 
 Next with the analogy that a box is a bomb or is a flag, then my creations was bad bad bad..., why create explicitly? is better delegate this funcionality to other class, and BOOM BOMM this class is the Factory, the Factory should to take over to create objects.
 
+<pre><code>
+public interface  Producto {  
+   public void accion();
+ }
+<code/></pre>
 
-{%public interface  Producto {  %}
-    {% public void accion(); %}
-{% } %}
+<pre><code>
+ public class Producto1 implements Producto{
 
-{% public class Producto1 implements Producto{ %}
-
-  {%  @Override %}
-  {%  public void accion() { %}
-  {%      System.out.print("MENSAJE DE PRODUCTO 1"); %}
-  {%  } %}
-{% } %}
+  @Override 
+  public void accion() { 
+     System.out.print("MENSAJE DE PRODUCTO 1");
+  }
+}
+<code/></pre>
 
 
 public class Producto2 implements Producto{
