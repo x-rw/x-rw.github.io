@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Desing Patterns
+title: Factory-Method
 ---
 hola mundo
 Some time ago when i study in university i was programer creating many instance of objects, for example: to BUSCAMINAS game i create explicitly the objects, new Flag(), new Mine(), new Table(), new Casilla(), etc.
