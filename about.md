@@ -17,4 +17,4 @@ i participate in staskoverflow
 
 ### Contact me
 
-[email@domain.com](mailto:azcxrw@gmail.com)
+[azcxrw@gmail.com](mailto:azcxrw@gmail.com)
