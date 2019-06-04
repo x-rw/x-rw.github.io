@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello this is my BLOG.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+My name is Rene 
+i participate in staskoverflow https://es.stackoverflow.com/users/27297/x-rw
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:azcxrw@gmail.com)
