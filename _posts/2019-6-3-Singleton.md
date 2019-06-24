@@ -9,7 +9,7 @@ There are only two points in the definition of a singleton design pattern
 
 * There should be only one instance allowed for a class and
 * We should allow global point of access to that single instance.
-
+```java
 public class Singleton {
 
     private static Singleton instance = new Singleton();
@@ -37,3 +37,4 @@ public class Singleton {
     }
 
 }
+```
