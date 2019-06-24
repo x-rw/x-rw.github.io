@@ -2,7 +2,7 @@
 layout: post
 title: Facade Patterns
 ---
-
+```java
 class CPU {
     public void freeze() { ... }
     public void jump(long position) { ... }
@@ -37,3 +37,4 @@ class ComputerFacade {
         processor.execute();
     }
 }
+```
