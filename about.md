@@ -6,8 +6,6 @@ permalink: /about/
 
 Hello this is my BLOG.
 
-### More Information
-
 My name is Rene and participate in stackoverflow, this is my account
 
 <a href="https://es.stackoverflow.com/users/27297/x-rw">
