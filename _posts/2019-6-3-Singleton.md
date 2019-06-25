@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Singleton
+categories: [bloggy]
 ---
 The objects  need one instance, because if we instantiate more than one this produces  problems same incorrect program behavior, overuse of resources, or
 inconsistent results.
