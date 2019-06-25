@@ -4,11 +4,11 @@ title: Blog
 ---
 <h1>Latest Posts</h1>
 
-{% for page in site.pages %}
-  {% if page.categories contains 'fruit' %}
+{% for post in site.posts  %}
+  {% if post.categories contains 'fruit' %}
     <div class="item">
-      <h3>{{page.title}}</h3>
-      <p>{{page.description}}</p>  
+      <h3>{{post.title}}</h3>
+      <p>{{post.description}}</p>  
     </div>
   {% endif %}
 {% endfor %}
