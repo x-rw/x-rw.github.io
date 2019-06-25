@@ -3,6 +3,10 @@ layout: post
 title: Facade Patterns
 categories: [bloggy]
 ---
+
+Muchas veces se tiene varias clases que uno al mirarlos no sabe cual es el orden de cada clase, en el ejemplo de abajo se muestra 3 clases: "CPU, Memory, HardDrive", la pregunta es: cuando se realiza una accion, cual es el orden de ejecucion de ellas?, para solucionar y mantener un orden se crea una FACHADA que organice el orden y de esa manera simplifique las acciones del subsistema. 
+
+
 ```java
 class CPU {
     public void freeze() { ... }
@@ -17,9 +21,10 @@ class Memory {
 class HardDrive {
     public byte[] read(long lba, int size) { ... }
 }
+```
 
-/* Facade */
-
+La FACHADA es el encargado de ejecutar la funcion start() para que el procesador, la ram se ejecuten de manera sincronizada.
+```java
 class ComputerFacade {
     private CPU processor;
     private Memory ram;
