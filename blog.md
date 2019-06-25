@@ -6,9 +6,9 @@ title: Blog
 
 {% for post in site.posts  %}
   {% if post.categories contains 'fruit' %}
-    <div class="item">
-      <h3>{{post.title}}</h3>
-      <p>{{post.description}}</p>  
-    </div>
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </li>
   {% endif %}
 {% endfor %}
