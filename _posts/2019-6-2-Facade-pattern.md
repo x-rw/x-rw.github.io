@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Facade Patterns
+categories: [bloggy]
 ---
 ```java
 class CPU {
